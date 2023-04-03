@@ -1,0 +1,1 @@
+helm upgrade --install lendtech-repayment-api applications/lendtech-repayment-api/ --debug -f applications/lendtech-repayment-api/values-prod.yaml
