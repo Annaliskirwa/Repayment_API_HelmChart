@@ -1,5 +1,5 @@
 #! /usr/bin/bash
-oc login --token=sha256~mQKX7E9VsIKoyd2sUBVyRBJJ0LizGTpIAJMjyu1qsew --server=https://api.sandbox-m3.1530.p1.openshiftapps.com:6443
+oc login --token=sha256~_LH4MwZ5NdE_LX39bRRUniPAUXFymhz7j2Z3BzBeG8I --server=https://api.sandbox-m3.1530.p1.openshiftapps.com:6443
 echo "Logged in to ocp"
 sleep 5
 
