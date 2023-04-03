@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: "{{ include "lendtech-repayment-api.fullname" . }}-test-connection"
+  labels:
+    {{- include "lendtech-repayment-api.labels" . | nindent 4 }}
+  annotations:
+    "helm.sh/hook": test
+spec:
+  containers:
+    - name: wget
+      image: busybox
+      command: ['wget']
+      args: ['{{ include "lendtech-repayment-api.fullname" . }}:{{ .Values.service.port }}']
+  restartPolicy: Never
