@@ -7,7 +7,7 @@ image:
   repository: ghcr.io/annaliskirwa/lendtech-repayment-api
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: 4697965011
+  tag: 4698117932
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
