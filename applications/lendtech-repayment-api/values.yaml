@@ -7,7 +7,7 @@ image:
   repository: docker.io/kirwa9431/lendtech-repayment-api
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: 4697632520
+  tag: 4697782654
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
