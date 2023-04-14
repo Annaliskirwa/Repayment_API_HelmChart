@@ -4,7 +4,7 @@
 
 replicaCount: 1
 image:
-  repository: docker.io/kirwa9431/lendtech-repayment-api
+  repository: ghcr.io/annaliskirwa/lendtech-repayment-api
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: 4697965011
